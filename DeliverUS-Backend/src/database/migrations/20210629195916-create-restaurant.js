@@ -56,6 +56,11 @@ module.exports = {
         ],
         defaultValue: 'offline'
       },
+      // Solution
+      promoted: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
